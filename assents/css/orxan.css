@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-container {
+  background: #51b5c3;
+  border-radius: 0px 0px 24px 24px;
+  padding: 16px;
+  margin-bottom: 50px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-content h1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  text-align: center;
+  margin-left: 50px;
+}
+.header-content-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: 20px;
+}
+
+.header-name {
+  margin-left: 12px;
+}
+
+.header-name p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+/* Nav  */
+
+.inputSelf img {
+  transform: translate(182px, -18px);
+}
+.inputSelf select {
+  border-bottom: 1px solid;
+  padding: 8px;
+  width: 250px;
+  font-size: 18px;
+}
+.inputSelf input {
+  border-bottom: 1px solid;
+  padding: 8px;
+  width: 250px;
+  font-size: 18px;
+}
+.inputSelf {
+  width: 492px;
+  margin-bottom: 30px;
+}
+
+.inputSelf label {
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.cntDisplay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 581px;
+}
+.inputProduct {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1120px;
+  height: 500px;
+  background: #fff;
+  border-radius: 30px;
+  margin: 20px;
+  box-shadow: 0 0 5px #ccc;
+  padding: 10px;
+}
+.inputProduct .buy {
+  display: flex;
+  align-items: center;
+  /* margin-left: 313px; */
+}
+.inputProduct .buy {
+  font-size: 35px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+.rBtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.btnBack {
+  width: 195px;
+  height: 55px;
+  border-radius: 50px;
+  border: none;
+  background: #ff0000;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  /* margin-left: 500px; */
+  margin-top: 20px;
+  cursor: pointer;
+}
+/* frame 5 End */
+
+
+
