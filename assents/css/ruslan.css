@@ -6,8 +6,8 @@
   box-sizing: border-box;
 }
 
-body{
-    background-color: #f3f7f6;
+body {
+  background-color: #f3f7f6;
 }
 
 .header-container {
@@ -108,8 +108,6 @@ ul li button {
 .table-container {
 }
 
-
-
 table {
   overflow: hidden;
   border-radius: 15px;
@@ -125,7 +123,6 @@ table thead {
   margin: 0 auto;
 }
 
-
 thead tr th {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
@@ -136,31 +133,52 @@ thead tr th {
   color: #ffffff;
 }
 
-thead tr th img{
-    transform: rotateY(180deg);
-    height: 35px;
-    width: 40px;
+thead tr th img {
+  transform: rotateY(180deg);
+  height: 35px;
+  width: 40px;
 }
-thead tr th button:hover{
-    outline: 5px solid #9E8463;
+thead tr th button:hover {
+  outline: 5px solid #9e8463;
   outline-offset: 5px;
-  transition: .7s ease-in-out;
+  transition: 0.7s ease-in-out;
 }
 
-thead tr th button{
-    background: #51b5c3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 40px;
-    width: 113px;
-    height: 56px;
-    font-family: "Montserrat", sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 22px;
-    line-height: 30px;
-  
-    color: #ffffff;
-    border: none;
+thead tr th button {
+  background: #51b5c3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  width: 113px;
+  height: 56px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 30px;
+
+  color: #ffffff;
+  border: none;
+}
+
+a button {
+  background: #51b5c3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  width: 172px;
+  height: 56px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 30px;
+
+  color: #ffffff;
+  border: none;
+}
+a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
 }
 table td {
   font-family: "Montserrat", sans-serif;
@@ -169,26 +187,21 @@ table td {
   font-size: 25px;
   line-height: 30px;
   text-align: center;
-    border-right: 1px solid #000;
+  border-right: 1px solid #000;
   color: #000000;
 }
 
 table td:first-of-type {
-   height: 55px;
-    border-radius: 10px 0 0 10px;
-    border: 1px solid transparent;
-    border-right: 1px solid #000;
+  height: 55px;
+  border-radius: 10px 0 0 10px;
+  border: 1px solid transparent;
+  border-right: 1px solid #000;
 }
 
-table td:last-of-type{
-    border-radius: 0 10px 10px 0;
-    border: 1px solid transparent;
-    
+table td:last-of-type {
+  border-radius: 0 10px 10px 0;
+  border: 1px solid transparent;
 }
- 
-
-
-
 
 table td button {
   background: #518cc3;
@@ -205,28 +218,28 @@ table td button {
   color: #ffffff;
 }
 
-table td button:hover{
-    outline: 5px solid #cac2b7;
-    outline-offset: 5px;
-    transition: .7s ease-in-out;
+table td button:hover {
+  outline: 5px solid #cac2b7;
+  outline-offset: 5px;
+  transition: 0.7s ease-in-out;
 }
-tr .table-icon{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 9px;
-    align-items: center;
+tr .table-icon {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 9px;
+  align-items: center;
 }
 
-tbody tr{
-    background-color: #fff;
+tbody tr {
+  background-color: #fff;
 }
 
 thead::after {
-    content: "";
-    width: 500%;
-    height: 34px;
-    background-color: #f3f7f6;
-    display: block;
+  content: "";
+  width: 500%;
+  height: 34px;
+  background-color: #f3f7f6;
+  display: block;
 }
 /* .table-item{
     display: flex;
@@ -258,25 +271,24 @@ thead::after {
     color: #ffffff;
 } */
 
-tbody tr .active{
-    font-family: "Montserrat", sans-serif;
-    font-style: normal;
-font-weight: 700;
-font-size: 25px;
-line-height: 30px;
-text-align: center;
+tbody tr .active {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
 
-color: #1DBC70;
-
+  color: #1dbc70;
 }
 
-tbody tr .locked{
-    font-family: "Montserrat", sans-serif;
-    font-style: normal;
-font-weight: 700;
-font-size: 25px;
-line-height: 30px;
-text-align: center;
+tbody tr .locked {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
 
-color: #BC1D1D;
+  color: #bc1d1d;
 }
