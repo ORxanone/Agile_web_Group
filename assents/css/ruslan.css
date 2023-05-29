@@ -292,3 +292,179 @@ tbody tr .locked {
 
   color: #bc1d1d;
 }
+
+.list {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute;
+  right: 60px;
+  top: 107px;
+}
+
+.list a {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #161515;
+  text-decoration: none;
+}
+@media only screen and (max-width: 1024px) {
+  table {
+    width: 100%;
+  }
+  thead tr th {
+    font-size: 20px;
+  }
+  thead tr th button {
+    font-size: 20px;
+    height: 42px;
+  }
+  table thead tr {
+    height: 57px;
+  }
+  .list {
+    position: absolute;
+    right: 52px;
+    top: 77px;
+  }
+
+  tbody tr .active {
+    font-size: 20px;
+  }
+  table thead {
+    height: auto;
+  }
+  tbody tr .locked {
+    font-size: 20px;
+  }
+  table td button {
+    width: 140px;
+    font-size: 20px;
+  }
+  a button {
+    width: 160px;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  thead tr th button {
+    height: 35px;
+  }
+  table thead {
+    height: auto;
+  }
+  table thead tr {
+    height: 54px;
+  }
+  thead tr th img {
+    height: 23px;
+  }
+  .header-content-right {
+    margin-right: 0px;
+  }
+  .header-content h1 {
+    margin-left: 0;
+  }
+  .list {
+    position: absolute;
+    right: 35px;
+    top: 80px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  table thead {
+    height: auto;
+  }
+  .header-name {
+    display: none;
+  }
+
+  thead tr th {
+    font-size: 13px;
+  }
+  thead tr th button {
+    width: 60px;
+    height: 26px;
+    font-size: 13px;
+  }
+  table td {
+    font-size: 16px;
+  }
+  tr .table-icon {
+    margin-top: 7px;
+    height: 64px;
+    padding-right: 10px;
+  }
+  thead tr {
+    height: 80px;
+  }
+  table td button {
+    font-size: 13px;
+    width: 72px;
+    height: 29px;
+  }
+  thead tr th img {
+    height: 20px;
+    width: 20px;
+  }
+  tbody tr .active {
+    font-size: 16px;
+  }
+  tbody tr .locked {
+    font-size: 16px;
+  }
+  .header-content h1 {
+    font-size: 29px;
+    margin-left: 0;
+  }
+  .header-content-right {
+    margin-right: 0;
+  }
+  .list {
+    position: absolute;
+    right: 34px;
+    top: 76px;
+    z-index: 6666;
+  }
+}
+
+@media only screen and (max-width: 321px) {
+  #image {
+    width: 41px;
+  }
+  tr .table-icon {
+    padding-right: 0px;
+  }
+  .list {
+    position: absolute;
+    right: 10px;
+    top: 67px;
+    z-index: 6666;
+  }
+  .list a {
+    font-size: 15px !important;
+  }
+
+  .header-content h1 {
+    font-size: 27px;
+    margin-left: 0;
+  }
+  thead tr th button {
+    width: 47px;
+  }
+  .header-content-right {
+    margin-right: 0;
+  }
+  thead tr th img {
+    width: 14px;
+  }
+}

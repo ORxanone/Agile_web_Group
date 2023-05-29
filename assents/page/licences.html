@@ -21,7 +21,14 @@
           <p>Username@agile.az</p>
         </div>
         <div class="header-icon">
-          <img src="../dots.svg" alt="">
+          <img id="image" src="../dots.svg" alt="" onclick="toggle()">
+        </div>
+        <div id="list" class="list">
+          <a href="sabina1.html">Dashboard</a>
+          <a href="licences.html">Licenses</a>
+          <a href="support.html">Support</a>
+          <a href="orxan.html">Settings</a>
+          <a href="../../index.html">Logout</a>
         </div>
       </div>
     </div>
@@ -124,12 +131,23 @@
         </tbody>
       </table>
 
-      <a href="./support.html">
-        <button>Next Page</button>
-      </a>
+
     </div>
   </div>
+  <script>
+    function toggle() {
+      var x = document.getElementById("list");
 
+      if (x.style.display === "none") {
+        x.style.display = "flex";
+
+      }
+      else {
+        x.style.display = "none"
+      }
+    }
+
+  </script>
 
 </body>
 
